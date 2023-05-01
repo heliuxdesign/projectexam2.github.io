@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css?family=Bauhaus+93&display=swap');
+@font-face {
+  font-family: 'Bahnschrift';
+  src: url('../fonts/BAHNSCHRIFT.TTF') format('truetype');
+}
+
+body {
+  margin: 0;
+  font-family: 'Bahnschrift', sans-serif;
+  background: #7532;
+  margin-bottom: 50px;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h5{
+  font-size: 22px;
+}
+
+h1, h2, h5 {
+  font-family: 'Bauhaus 93', sans-serif; 
+}
+
+h1, h2 {
+  text-align: center;
+  padding-top: 20px;
+}
+
+h2 {
+  padding-top: 20px;
+  font-size: 34px;
+}
+
+h5 {
+  color: #FB5906;
+}
+
+p {
+  font-size: 18px;
+}
+
+.centered {
+  text-align: center;
+}
+
+.layout-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  padding-top: 40px;
+}
+
+.centered-items {
+  align-items: center;
+}
+
+
+/* Nav */
+
+.some-navbar {
+  background-color: #FB5906 !important;
+  color: #F2F2F2;
+  font-size: 20px;
+}
+
+.navbar-logo {
+  padding-left: 40px;
+}
+
+.nav-link {
+  margin: 5px 0 0 20px;
+}
+
+.some-navbar .nav-link {
+  color: #F2F2F2;
+}
+
+.some-navbar .nav-link:hover {
+  color: #70D95F;
+}
+
+.some-navbar .navbar-brand {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.some-navbar .nav-link.active {
+  background-color: #70D95F;
+  color: black;
+}
+
+/* Buttons */
+
+button {
+  font-family: 'Bahnschrift', sans-serif;
+  font-size: 20px;
+}
+
+.button-red {
+  background-color: #DE0015;
+  color: #F2F2F2;
+  border-radius: 8px;
+  border: none;
+  padding: 5px 20px;
+  width: 90%;
+}
+
+.button-red:hover {
+  background-color: #DE0015;
+  color: black;
+}
+
+.button-green {
+  background-color: #70D95F;
+  color: #F2F2F2;
+  border-radius: 8px;
+  border: none;
+  padding: 5px 20px;
+  width: 90%;
+  margin-bottom: 5px;
+}
+
+.button-green:hover {
+  background-color: #70D95F;
+  color: black;
+}
+
+.button-emoji {
+  background-color: #70D95F;
+  color: #F2F2F2;
+  border-radius: 8px;
+  border: none;
+  padding: 5px;
+  width: 10%;
+  margin: 10px;
+}
+/* Link */
+
+.my-link {
+  color: #DE0015;
+  text-decoration: underline #9FD5F7;
+}
+
+.my-link:hover {
+  color: #70D95F;
+  text-decoration: underline  #70D95F;
+}
+
+/* Forms */
+
+form {
+  font-family: 'Bahnschrift', sans-serif;
+}
+
+.input-group {
+  display: block;
+  width: 90%;
+
+  margin-bottom: 10px;
+}
+
+input {
+  border: 1px solid #9FD5F7;
+  border-radius: 8px;
+  padding: 4px;;
+}
+
+/* Images */
+
+.img-logo {
+  margin-bottom: 20px;
+}
+
+.nav-logo {
+  width: 4rem;
+}
+
+/* Footer */
+
+footer {
+ position: fixed;
+ left: 0;
+ bottom: 0;
+ width: 100%;
+ text-align: center;
+ background-color: #FB5906;
+ height: 35px;
+}
+
+.footer-logo {
+  height: 35px;
+  padding: 5px;
+  margin-left: 20px;
+}
+
